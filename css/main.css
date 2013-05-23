@@ -1,0 +1,45 @@
+.itemList li {
+    clear: both;
+    margin-top: 15px;
+}
+
+.itemList {
+    list-style: none;
+    margin-left: 0;
+
+}
+
+.control-group.item {
+    margin: 0;
+}
+
+.control-group.item>div.controls {
+    margin-top: 5px;
+}
+
+.form-inline.search {
+    text-align: center;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.page-header {
+    border: 0px;
+    margin-bottom: 0px;
+    padding: 0px;
+    vertical-align: middle;
+}
+
+.page-header h3 {
+    vertical-align: middle;
+}
+
+.paginatior.form-inline {
+    width: 100%;
+    text-align: center;
+}
+
+.info-pagination {
+    width: 100%;
+    text-align: center;
+}

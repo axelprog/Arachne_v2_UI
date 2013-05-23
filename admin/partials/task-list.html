@@ -1,0 +1,68 @@
+<div>
+    <!--Body content-->
+    <ul class="itemList">
+        <!-- header-->
+        <li class="page-header">
+            <h3>Таски
+                <a href="#/task/new" class="btn btn-primary pull-right"><i class="icon-plus icon-white"></i>Новый</a>
+            </h3>
+        </li>
+
+        <!-- search form-->
+        <li class="thumbnail ">
+            <fieldset class="form-inline search">
+
+                <label class="control-label">Искать по строке:</label>
+
+                <input type="text" class="input-mid" ng-model="searchName"
+                       ng-change="changeUrlSearch()">
+            </fieldset>
+        </li>
+        <!-- list of items-->
+        <li ng-repeat="task in items | filter:searchName | showPage:pagination" class="thumbnail">
+
+
+            <fieldset class="form-horizontal">
+                <legend>
+                    <a href="#/task/{{task.id}}">{{task.task_description}}</a>
+                </legend>
+                <div class="control-group item">
+                    <label class="control-label">Источник:</label>
+
+                    <div class="controls">
+                        <p>{{(sources | getById:task.source_id).name}}</p>
+                    </div>
+                </div>
+                <div class="control-group item">
+                    <label class="control-label">URL:</label>
+
+                    <div class="controls">
+                        <a href="{{source.url}}" target="_blank">{{task.task_url}}</a>
+                    </div>
+                </div>
+                <div class="control-group item">
+                    <label class="control-label">Сканировался:</label>
+
+                    <div class="controls">
+                        <p>{{(parseDate(task.end_stamp)) | date:'HH:mm d MMMM y'}}</p>
+                    </div>
+                </div>
+                <div class="control-group item">
+                    <label class="control-label">Статус:</label>
+
+                    <div class="controls">
+                        <p>{{(statuses | getByType:task.task_status_type).name}}</p>
+                    </div>
+                </div>
+            </fieldset>
+
+
+        </li>
+    </ul>
+
+    <!--pager-->
+
+    <ui-pagination current-page="pagination.currentPage" total-pages="pagination.total"
+                   items-per-page="{{pagination.itemsPerPage}}" total-items="{{items.length}}"></ui-pagination>
+
+</div>

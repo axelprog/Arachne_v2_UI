@@ -1,0 +1,27 @@
+<form name="paginator" class="pagination">
+    <div class="info-pagination" ng-show="!paginator.pageInput.$invalid">
+        <p>Показано {{shownItems}} записей из {{totalItems}}</p>
+    </div>
+    <div class="paginatior form-inline control-group" ng-class="{error: paginator.pageInput.$invalid}">
+        <div class="btn-group">
+            <a class="btn btn-info" ng-class="{disabled: firstPage()}" ng-click="goToFirstPage()"><i
+                    class="icon-fast-backward"></i></a>
+            <a class="btn btn-info" ng-class="{disabled: !hasPrev()}" ng-click="prev()"><i
+                    class="icon-backward"></i></a>
+        </div>
+        <span class="info">
+            <input type="number" name="pageInput" ng-model="currentPage" class="input-small" min="1"
+                   max="{{totalPages}}" integer>
+            <label class="control-label">из {{totalPages}} стр.</label>
+        </span>
+
+        <div class="btn-group">
+            <a class="btn btn-info" ng-class="{disabled: !hasNext()}" ng-click="next()"><i class="icon-forward"></i></a>
+            <a class="btn btn-info" ng-class="{disabled: lastPage()}" ng-click="goToLastPage()"><i
+                    class="icon-fast-forward"></i></a>
+        </div>
+    </div>
+
+
+    <div class="clear"></div>
+</form>

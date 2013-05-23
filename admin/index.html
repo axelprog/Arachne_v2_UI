@@ -1,0 +1,66 @@
+<!DOCTYPE HTML>
+<html ng-app="Arachne">
+<head>
+    <meta charset="utf-8">
+
+    <!--libraries-->
+    <script type="text/javascript" src="../lib/angular/angular.min.js"></script>
+    <script type="text/javascript" src="../lib/angular/angular-resource.min.js"></script>
+
+
+    <script type="text/javascript" src="app.js"></script>
+
+
+    <!--services-->
+    <script type="text/javascript" src="services/configService.js"></script>
+    <script type="text/javascript" src="services/sourceServices.js"></script>
+    <script type="text/javascript" src="services/taskService.js"></script>
+    <script type="text/javascript" src="services/constService.js"></script>
+
+    <!--controller-->
+    <script type="text/javascript" src="controllers/sources/sourceListControllers.js"></script>
+    <script type="text/javascript" src="controllers/sources/sourceController.js"></script>
+    <script type="text/javascript" src="controllers/tasks/taskListController.js"></script>
+    <script type="text/javascript" src="controllers/tasks/taskController.js"></script>
+    <script type="text/javascript" src="controllers/misc/navigationController.js"></script>
+
+    <!--filters-->
+    <script type="text/javascript" src="filters/paginationFilter.js"></script>
+    <script type="text/javascript" src="filters/listFilter.js"></script>
+
+    <!--directives-->
+    <script type="text/javascript" src="directives/paginator.js"></script>
+    <script type="text/javascript" src="directives/validation.js"></script>
+
+    <!--css-->
+    <link rel="stylesheet" href="../lib/bootstrap/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="../lib/bootstrap/css/bootstrap-responsive.min.css"/>
+    <link rel="stylesheet" href="../css/main.css"/>
+
+    <!--localization-->
+    <script type="text/javascript" src="../lib/angular/angular-locale_ru-ru.js"></script>
+
+
+    <title>Arachne</title>
+</head>
+<body>
+<div class="container">
+    <div class="span12">
+
+        <!-- navigation bar-->
+        <div class="navbar" ng-controller="navCtrl">
+            <div class="navbar-inner">
+                <a class="brand" href="#">Arachne v2</a>
+                <ul class="nav">
+                    <li ng-class="navClass('scope')"><a href="#/scope">Скоупы</a></li>
+                    <li ng-class="navClass('task')"><a href="#/task">Таски</a></li>
+                    <li ng-class="navClass('source')"><a href="#/source">Источники</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div ng-view></div>
+    </div>
+</div>
+</body>
+</html>
