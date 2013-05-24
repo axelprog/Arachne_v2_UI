@@ -3,7 +3,7 @@ angular.module("Pagination", ['Validation'])
         return {
             restrict: 'EA',
             replace: true,
-            templateUrl:'partials/paginator.html',
+            templateUrl: 'partials/paginator.html',
             scope: {
                 currentPage: '=',
                 totalPages: '=',
@@ -12,26 +12,26 @@ angular.module("Pagination", ['Validation'])
             },
             link: function (scope, element, attrs) {
 
-                scope.shownItemsCalc = function(){
-                    if(scope.lastPage())
+                scope.shownItemsCalc = function () {
+                    if (scope.lastPage())
                         scope.shownItems = scope.totalItems - scope.itemsPerPage * (scope.currentPage - 1);
                     else
-                        scope.shownItems = Math.min(scope.totalItems, scope.itemsPerPage );
+                        scope.shownItems = Math.min(scope.totalItems, scope.itemsPerPage);
                 };
-                scope.$watch('totalItems', function() {
+                scope.$watch('totalItems', function () {
                     scope.shownItemsCalc();
                 });
 
-                scope.$watch('itemsPerPage', function(itemsPerPage) {
+                scope.$watch('itemsPerPage', function (itemsPerPage) {
                     scope.shownItemsCalc();
                 });
 
-                scope.$watch('currentPage', function() {
-                  /*  if(scope.currentPage < 1)
-                        scope.currentPage = 1;
+                scope.$watch('currentPage', function () {
+                    /*  if(scope.currentPage < 1)
+                     scope.currentPage = 1;
 
-                    if(scope.currentPage > scope.totalPages)
-                        scope.currentPage = scope.totalPages;*/
+                     if(scope.currentPage > scope.totalPages)
+                     scope.currentPage = scope.totalPages;*/
                     scope.shownItemsCalc();
                 })
 

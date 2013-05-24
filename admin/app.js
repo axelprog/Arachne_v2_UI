@@ -5,13 +5,13 @@ var app = angular.module('Arachne', ['configService', 'Pagination', 'sourceServi
     config(['$routeProvider', function ($routeProvider) {
 
         $routeProvider.
-            when('/source', {templateUrl: 'partials/source-list.html', controller: SourceListCtrl, reloadOnSearch: false}).
-            when('/source/new', {templateUrl: 'partials/source-detail.html', controller: SourceCtrl}).
-            when('/source/:sourceId', {templateUrl: 'partials/source-detail.html', controller: SourceCtrl}).
-            when('/task', {templateUrl: 'partials/task-list.html', controller: TaskListCtrl, reloadOnSearch: false}).
-            when('/task/new', {templateUrl: 'partials/task-detail.html', controller: TaskCtrl}).
-            when('/task/:taskId', {templateUrl: 'partials/task-detail.html', controller: TaskCtrl}).
-            when('/scope', {templateUrl: 'partials/source-detail.html', controller: SourceCtrl}).
+            when('/source', {templateUrl: 'parts/sources/partials/source-list.html', controller: SourceListCtrl, reloadOnSearch: false}).
+            when('/source/new', {templateUrl: 'parts/sources/partials/source-detail.html', controller: SourceCtrl}).
+            when('/source/:sourceId', {templateUrl: 'parts/sources/partials/source-detail.html', controller: SourceCtrl}).
+            when('/task', {templateUrl: 'parts/tasks/partials/task-list.html', controller: TaskListCtrl, reloadOnSearch: false}).
+            when('/task/new', {templateUrl: 'parts/tasks/partials/task-detail.html', controller: TaskCtrl}).
+            when('/task/:taskId', {templateUrl: 'parts/tasks/partials/task-detail.html', controller: TaskCtrl}).
+            when('/scope', {templateUrl: 'parts/scope/partials/scope-detail.html', controller: SourceCtrl}).
             otherwise({redirectTo: '/source'});
     }]).
     config(function ($httpProvider) {

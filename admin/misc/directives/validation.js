@@ -1,10 +1,10 @@
 angular.module("Validation", [])
-    .directive('integer', function() {
+    .directive('integer', function () {
         var INTEGER_REGEXP = /^\-?\d*$/;
         return {
             require: 'ngModel',
-            link: function(scope, elm, attrs, ctrl) {
-                ctrl.$parsers.unshift(function(viewValue) {
+            link: function (scope, elm, attrs, ctrl) {
+                ctrl.$parsers.unshift(function (viewValue) {
                     if (INTEGER_REGEXP.test(viewValue)) {
                         // it is valid
                         ctrl.$setValidity('integer', true);
