@@ -1,9 +1,9 @@
-function TaskCtrl($scope, $routeParams, Task, Source, $location) {
+function TaskCtrl($scope, $routeParams, Task, SourceNames, $location) {
     var taskId = $routeParams.taskId;
     var isNew = false;
 
     //get source list
-    $scope.sources = Source.getList();
+    $scope.sources = SourceNames.getList();
 
     //get task info
     if (taskId) {

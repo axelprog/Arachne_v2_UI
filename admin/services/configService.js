@@ -3,9 +3,9 @@
 /* Services */
 
 angular.module('configService', ['ngResource']).
-    factory('AppConfig', function($resource ){
+    factory('AppConfig', function ($resource) {
         return{
-            baseApiUrl:  "http://192.168.2.224:8000\:8000"
+            baseApiUrl: "http://192.168.2.225:8000\:8000"
         }
     });
 

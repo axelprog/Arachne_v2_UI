@@ -2,9 +2,9 @@
 
 /* Controllers */
 
-function TaskListCtrl($scope, Task, Source, TaskStatus, $location) {
+function TaskListCtrl($scope, Task, SourceNames, TaskStatus, $location) {
     //get source list
-    $scope.sources = Source.getList();
+    $scope.sources = SourceNames.getList();
     $scope.statuses = TaskStatus.getList();
 
     //get task list

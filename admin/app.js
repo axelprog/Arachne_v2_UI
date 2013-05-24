@@ -1,7 +1,7 @@
 'use strict';
 
 var app = angular.module('Arachne', ['configService', 'Pagination', 'sourceServices',
-        'taskServices', 'paginationFilters', 'listFilters', 'constService']).
+        'taskServices', 'paginationFilters', 'listFilters', 'helperService']).
     config(['$routeProvider', function ($routeProvider) {
 
         $routeProvider.
