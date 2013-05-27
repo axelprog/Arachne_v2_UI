@@ -3,7 +3,7 @@ angular.module("Pagination", ['Validation'])
         return {
             restrict: 'EA',
             replace: true,
-            templateUrl: 'partials/paginator.html',
+            templateUrl: 'components/pagination/partials/paginator.html',
             scope: {
                 currentPage: '=',
                 totalPages: '=',

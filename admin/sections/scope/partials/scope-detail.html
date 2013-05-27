@@ -1,0 +1,68 @@
+<div>
+    <ul class="itemList">
+        <!-- header-->
+        <li class="page-header">
+            <h3>{{["Создание", "Редактирование"][(item.id != '' )+0]}} источника</h3>
+        </li>
+
+        <li class="thumbnail">
+            <form name="sourceForm" class="form-horizontal">
+                <fieldset>
+                    <div class="control-group"
+                         ng-class="{error: sourceForm.inputName.$invalid}">
+                        <label class="control-label" for="inputName">Название</label>
+
+                        <div class="controls">
+                            <input type="text" ng-model="item.name" name="inputName" id="inputName"
+                                   placeholder="Название" required>
+                        </div>
+                    </div>
+
+                    <div class="control-group">
+                        <label class="control-label" for="inputUrl">URL</label>
+
+                        <div class="controls">
+                            <input type="text" ng-model="item.url" name="inputUrl" id="inputUrl" placeholder="URL">
+                        </div>
+                    </div>
+
+                    <div class="control-group">
+                        <label class="control-label" for="inputLogin">Логин</label>
+
+                        <div class="controls">
+                            <input type="text" ng-model="item.login" name="inputLogin" id="inputLogin"
+                                   placeholder="Логин">
+                        </div>
+                    </div>
+
+                    <div class="control-group">
+                        <label class="control-label" for="inputPass">Пароль</label>
+
+                        <div class="controls">
+                            <input type="password" ng-model="item.passwd" name="inputPass" id="inputPass"
+                                   placeholder="Пароль">
+                        </div>
+                    </div>
+
+                    <div class="control-group">
+                        <label class="control-label" for="inputName">Атрибуты</label>
+
+                        <div class="controls">
+                            <textarea rows="4" ng-model="item.attr" id="inputAttr"></textarea>
+                        </div>
+                    </div>
+
+                    <div class="form-actions">
+                        <button type="button" class="btn btn-success"
+                                ng-disabled="sourceForm.$invalid||sourceForm.$pristine"
+                                ng-click="save()">
+                            <i class="icon-ok"></i> Сохранить
+                        </button>
+                        <a class="btn" href="#/source"><i class="icon-remove"></i> Отменить</a>
+                    </div>
+                </fieldset>
+            </form>
+        </li>
+
+    </ul>
+</div>

@@ -4,8 +4,21 @@
     <meta charset="utf-8">
 
     <!--libraries-->
+    <script type="text/javascript" src="../lib/jquery/jquery-1.10.0.min.js"></script>
     <script type="text/javascript" src="../lib/angular/angular.min.js"></script>
     <script type="text/javascript" src="../lib/angular/angular-resource.min.js"></script>
+    <script type="text/javascript" src="../lib/angular-strap/angular-strap.js"></script>
+    <script type="text/javascript" src="../lib/angular-strap/bootstrap-datepicker.js"></script>
+
+    <!--css-->
+    <link rel="stylesheet" href="../lib/bootstrap/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="../lib/bootstrap/css/bootstrap-responsive.min.css"/>
+    <link rel="stylesheet" href="../lib/angular-strap/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="../css/main.css"/>
+
+    <!--localization-->
+    <script type="text/javascript" src="../lib/angular/angular-locale_ru-ru.js"></script>
+    <script type="text/javascript" src="../lib/angular-strap/bootstrap-datepicker.ru.js" charset="UTF-8"></script>
 
     <!--main app-->
     <script type="text/javascript" src="app.js"></script>
@@ -13,15 +26,15 @@
 
     <!--services-->
     <script type="text/javascript" src="misc/services/configService.js"></script>
-    <script type="text/javascript" src="parts/sources/services/sourceServices.js"></script>
-    <script type="text/javascript" src="parts/tasks/services/taskService.js"></script>
+    <script type="text/javascript" src="sections/sources/services/sourceServices.js"></script>
+    <script type="text/javascript" src="sections/tasks/services/taskService.js"></script>
     <script type="text/javascript" src="misc/services/helperService.js"></script>
 
     <!--controller-->
-    <script type="text/javascript" src="parts/sources/controllers/sourceListControllers.js"></script>
-    <script type="text/javascript" src="parts/sources/controllers/sourceController.js"></script>
-    <script type="text/javascript" src="parts/tasks/controllers/taskListController.js"></script>
-    <script type="text/javascript" src="parts/tasks/controllers/taskController.js"></script>
+    <script type="text/javascript" src="sections/sources/controllers/sourceListControllers.js"></script>
+    <script type="text/javascript" src="sections/sources/controllers/sourceController.js"></script>
+    <script type="text/javascript" src="sections/tasks/controllers/taskListController.js"></script>
+    <script type="text/javascript" src="sections/tasks/controllers/taskController.js"></script>
     <script type="text/javascript" src="components/pagination/controllers/navigationController.js"></script>
 
     <!--filters-->
@@ -31,14 +44,6 @@
     <!--directives-->
     <script type="text/javascript" src="components/pagination/directives/paginator.js"></script>
     <script type="text/javascript" src="misc/directives/validation.js"></script>
-
-    <!--css-->
-    <link rel="stylesheet" href="../lib/bootstrap/css/bootstrap.min.css"/>
-    <link rel="stylesheet" href="../lib/bootstrap/css/bootstrap-responsive.min.css"/>
-    <link rel="stylesheet" href="../css/main.css"/>
-
-    <!--localization-->
-    <script type="text/javascript" src="../lib/angular/angular-locale_ru-ru.js"></script>
 
 
     <title>Arachne</title>
