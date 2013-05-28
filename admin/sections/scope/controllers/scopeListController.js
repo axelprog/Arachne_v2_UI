@@ -3,17 +3,17 @@
 
 /* Controllers */
 
-function TaskListCtrl($scope, Task, SourceNames, TaskStatus, HelperFunc, $location) {
+function ScopeListCtrl($scope, Scope, TaskNames, TaskStatus, $location) {
     $scope.searchDateFrom = {};
     $scope.searchDateTo = {};
 
     //get source list
-    $scope.sources = SourceNames.getList();
+    $scope.tasks = TaskNames.getList();
     $scope.statuses = TaskStatus.getList();
 
 
-    //get task list
-    $scope.items = Task.getList(function () {
+    //get scope list
+    $scope.items = Scope.getList(function () {
 
         $scope.pagination.total = Math.ceil($scope.items.length / $scope.pagination.itemsPerPage);
         angular.forEach($scope.items, function (task) {
@@ -54,10 +54,10 @@ function TaskListCtrl($scope, Task, SourceNames, TaskStatus, HelperFunc, $locati
             $location.search('name', $scope.searchName);
 
         if ($scope.searchDateFrom.date !== undefined)
-            $location.search('dateFrom', HelperFunc.DateToStr($scope.searchDateFrom.date));
+            $location.search('dateFrom', DateToStr($scope.searchDateFrom.date));
 
         if ($scope.searchDateTo.date !== undefined)
-            $location.search('dateTo', HelperFunc.DateToStr($scope.searchDateTo.date));
+            $location.search('dateTo', DateToStr($scope.searchDateTo.date));
     };
 
 
