@@ -1,0 +1,76 @@
+<div>
+    <ul class="itemList">
+        <!-- header-->
+        <li class="page-header">
+            <h3>{{["Создание", "Редактирование"][(item.id != '' )+0]}} скоупа</h3>
+        </li>
+
+        {{item}}
+        <li class="thumbnail">
+            <form name="taskForm" class="form-horizontal">
+                <fieldset>
+                    <div class="control-group"
+                         ng-class="{error: taskForm.inputName.$invalid}">
+                        <label class="control-label" for="inputName">Название</label>
+
+                        <div class="controls">
+                            <input type="text" ng-model="item.name" name="inputName" id="inputName"
+                                   placeholder="Название" ng-required="true">
+                        </div>
+                    </div>
+
+                    <div class="control-group">
+                        <label class="control-label" for="inputDescription">Описание</label>
+
+                        <div class="controls">
+                            <input type="text" ng-model="item.description" name="inputDescription" id="inputDescription"
+                                   placeholder="Описание">
+                        </div>
+                    </div>
+
+                    <div class="control-group" ng-class="{error: taskForm.selectSource.$invalid}">
+                        <label class="control-label" for="selectTask">Источник</label>
+
+                        <div class="controls">
+
+                            <select data-placeholder="Выберите таски..." id="selectTask" multiple chosen
+                                    ng-model="item.tasks" ng-options="task.id as task.name for task in tasks"
+                                    no-results-text="loading...">
+                                <option value=""></option>
+                            </select>
+
+                            <select
+                                    chosen
+                                    multiple
+                                    allow-single-deselect="true"
+                                    data-placeholder="Choose Your Own Adventure"
+                                    no-results-text="'Tough luck'"
+                                    ng-model="item.tasks" ng-options="task.id as task.name for task in tasks"
+                                    style="width:500px; height:500px">
+                                <option value=""></option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="control-group">
+                        <label class="control-label" for="inputName">Атрибуты</label>
+
+                        <div class="controls">
+                            <textarea rows="4" ng-model="item.attr" id="inputAttr"></textarea>
+                        </div>
+                    </div>
+
+                    <div class="form-actions">
+                        <button type="button" class="btn btn-success"
+                                ng-disabled="sourceForm.$invalid||sourceForm.$pristine"
+                                ng-click="save()">
+                            <i class="icon-ok"></i> Сохранить
+                        </button>
+                        <a class="btn" href="#/source"><i class="icon-remove"></i> Отменить</a>
+                    </div>
+                </fieldset>
+            </form>
+        </li>
+
+    </ul>
+</div>

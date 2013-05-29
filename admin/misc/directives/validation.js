@@ -1,3 +1,5 @@
+'use strict';
+
 angular.module("Validation", [])
     .directive('integer', function () {
         var INTEGER_REGEXP = /^\-?\d*$/;
