@@ -1,6 +1,6 @@
 'use strict';
 
-var app = angular.module('Arachne', ['configService', 'Pagination', 'localytics.directives', 'sourceServices',
+var app = angular.module('Arachne', ['configService', 'Pagination', 'Chosen', 'sourceServices',
         'taskServices', 'scopeServices', 'paginationFilters', 'listFilters', 'helperService',
         '$strap.directives']).
     config(['$routeProvider', function ($routeProvider) {
@@ -14,11 +14,11 @@ var app = angular.module('Arachne', ['configService', 'Pagination', 'localytics.
             .when('/task/:taskId', {templateUrl: 'sections/tasks/partials/task-detail.html', controller: TaskCtrl})
             .when('/scope', {templateUrl: 'sections/scope/partials/scope-list.html', controller: ScopeListCtrl})
             .when('/scope/new', {templateUrl: 'sections/scope/partials/scope-detail.html', controller: ScopeCtrl})
-            .when('/scope/:taskId', {templateUrl: 'sections/scope/partials/scope-detail.html', controller: ScopeCtrl})
+            .when('/scope/:scopeId', {templateUrl: 'sections/scope/partials/scope-detail.html', controller: ScopeCtrl})
             .otherwise({redirectTo: '/scope'});
-    }]).
-    config(function ($httpProvider) {
-        /*HACK: for CORS query*/
+    }])
+    .config(function ($httpProvider) {
+//        HACK: for CORS query
         delete $httpProvider.defaults.headers.common['X-Requested-With'];
     });
 
