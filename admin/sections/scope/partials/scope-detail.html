@@ -40,11 +40,11 @@
                                     >
                             </select>
 
-                            <select data-placeholder="Выберите таски..." multiple class="span4 chzn-select"
-                                    ng-model="item.tasks" ng-options="task.id as task.name for task in tasks"
-                                    ch-options="tasks" chosen>
-                            </select>
 
+                            <select data-placeholder="Choose a Recipient" multiple class="span4 chzn-select" chosen
+                                    ng-model="item.tasks"
+                                    ng-options="task.id as task.name for task in tasks">
+                            </select>
                         </div>
                     </div>
 
