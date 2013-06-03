@@ -5,9 +5,7 @@
             <h3>{{["Создание", "Редактирование"][(item.id != '' )+0]}} скоупа</h3>
         </li>
 
-        <p>{{item}}</p>
 
-        <p>{{tasks|json}}</p>
         <li class="thumbnail">
             <form name="taskForm" class="form-horizontal">
                 <fieldset>
@@ -35,14 +33,14 @@
 
                         <div class="controls">
 
-                            <select title="Выберите таски..." id="selectTask" multiple
-                                    ng-model="item.tasks" ng-options="task.id as task.name for task in tasks"
-                                    >
-                            </select>
+                            <!--  <select title="Выберите таски..." id="selectTask" multiple
+                                      ng-model="item.tasks" ng-options="task.id as task.name for task in tasks"
+                                      >
+                              </select>-->
 
 
-                            <select data-placeholder="Choose a Recipient" multiple class="span4 chzn-select" chosen
-                                    ng-model="item.tasks"
+                            <select data-placeholder="Выберите таски..." multiple class=" chzn-select" chosen
+                                    id="selectTask" ng-model="item.tasks"
                                     ng-options="task.id as task.name for task in tasks">
                             </select>
                         </div>
