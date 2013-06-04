@@ -9,6 +9,6 @@ angular.module('scopeServices', ['ngResource', 'configService']).
             getItem: {method: 'GET', params: {scopeId: ''}},
             create: {method: 'POST'},
             save: {method: 'PUT'},
-            delete: {method: 'DELETE'}
+            delete: {method: 'DELETE', params: {scopeId: ''}}
         });
     });

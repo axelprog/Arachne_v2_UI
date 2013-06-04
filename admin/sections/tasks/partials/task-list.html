@@ -12,6 +12,7 @@
         <li class="thumbnail ">
             <fieldset class="form-inline search">
 
+
                 <div class="control-group item">
                     <label class="control-label">Искать по строке:</label>
 
@@ -52,32 +53,44 @@
                 <legend>
                     <a href="#/task/{{task.id}}">{{task.name}}</a>
                 </legend>
-                <div class="control-group item">
-                    <label class="control-label">Источник:</label>
 
-                    <div class="controls">
-                        <p>{{(sources | getById:task.source_id).name}}</p>
+
+                <div class="item pull-right">
+
+                    <div class="btn-toolbar ">
+                        <button class="btn btn-danger" ng-click="delete(task.id)"><i class="icon-trash icon-white"></i>
+                            Удалить
+                        </button>
                     </div>
                 </div>
-                <div class="control-group item">
-                    <label class="control-label">URL:</label>
+                <div class="pull-left">
+                    <div class="control-group item">
+                        <label class="control-label">Источник:</label>
 
-                    <div class="controls">
-                        <a href="{{source.url}}" target="_blank">{{task.url}}</a>
+                        <div class="controls">
+                            <p>{{(sources | getById:task.source_id).name}}</p>
+                        </div>
                     </div>
-                </div>
-                <div class="control-group item">
-                    <label class="control-label">Сканировался:</label>
+                    <div class="control-group item">
+                        <label class="control-label">URL:</label>
 
-                    <div class="controls">
-                        <p>{{task.parsedDate | date:'HH:mm d MMMM y'}}</p>
+                        <div class="controls">
+                            <a href="{{source.url}}" target="_blank">{{task.url}}</a>
+                        </div>
                     </div>
-                </div>
-                <div class="control-group item">
-                    <label class="control-label">Статус:</label>
+                    <div class="control-group item">
+                        <label class="control-label">Сканировался:</label>
 
-                    <div class="controls">
-                        <p>{{(statuses | getByType:task.status_type).name}}</p>
+                        <div class="controls">
+                            <p>{{task.parsedDate | date:'HH:mm d MMMM y'}}</p>
+                        </div>
+                    </div>
+                    <div class="control-group item">
+                        <label class="control-label">Статус:</label>
+
+                        <div class="controls">
+                            <p>{{(statuses | getByType:task.status_type).name}}</p>
+                        </div>
                     </div>
                 </div>
             </fieldset>

@@ -12,7 +12,7 @@ var app = angular.module('Arachne', ['configService', 'Pagination', 'Chosen', 's
             .when('/task', {templateUrl: 'sections/tasks/partials/task-list.html', controller: TaskListCtrl, reloadOnSearch: false})
             .when('/task/new', {templateUrl: 'sections/tasks/partials/task-detail.html', controller: TaskCtrl})
             .when('/task/:taskId', {templateUrl: 'sections/tasks/partials/task-detail.html', controller: TaskCtrl})
-            .when('/scope', {templateUrl: 'sections/scope/partials/scope-list.html', controller: ScopeListCtrl})
+            .when('/scope', {templateUrl: 'sections/scope/partials/scope-list.html', controller: ScopeListCtrl, reloadOnSearch: false})
             .when('/scope/new', {templateUrl: 'sections/scope/partials/scope-detail.html', controller: ScopeCtrl})
             .when('/scope/:scopeId', {templateUrl: 'sections/scope/partials/scope-detail.html', controller: ScopeCtrl})
             .otherwise({redirectTo: '/scope'});

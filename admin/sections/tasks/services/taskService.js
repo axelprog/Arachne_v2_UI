@@ -9,6 +9,6 @@ angular.module('taskServices', ['ngResource', 'configService']).
             getItem: {method: 'GET', params: {taskId: ''}},
             create: {method: 'POST'},
             save: {method: 'PUT'},
-            delete: {method: 'DELETE'}
+            delete: {method: 'DELETE', params: {taskId: ''}}
         });
     });

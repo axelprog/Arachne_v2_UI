@@ -13,14 +13,18 @@ function TaskListCtrl($scope, Task, SourceNames, TaskStatus, HelperFunc, $locati
 
 
     //get task list
-    $scope.items = Task.getList(function () {
+    function getItems() {
+        $scope.items = Task.getList(function () {
 
-        $scope.pagination.total = Math.ceil($scope.items.length / $scope.pagination.itemsPerPage);
-        angular.forEach($scope.items, function (task) {
-            if (task.end_stamp)
-                task.parsedDate = new Date(task.end_stamp);
-        })
-    });
+            $scope.pagination.total = Math.ceil($scope.items.length / $scope.pagination.itemsPerPage);
+            angular.forEach($scope.items, function (task) {
+                if (task.end_stamp)
+                    task.parsedDate = new Date(task.end_stamp);
+            })
+        });
+    };
+
+    getItems();
 
 
     $scope.pagination = {
@@ -60,7 +64,13 @@ function TaskListCtrl($scope, Task, SourceNames, TaskStatus, HelperFunc, $locati
             $location.search('dateTo', HelperFunc.DateToStr($scope.searchDateTo.date));
     };
 
+    $scope.delete = function (id) {
 
+        Task.delete({taskId: id}, function () {
+            getItems();
+        });
+
+    };
 }
 
 //PhoneListCtrl.$inject = ['$scope', 'Phone'];

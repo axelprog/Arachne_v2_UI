@@ -11,16 +11,19 @@ function ScopeListCtrl($scope, Scope, TaskNames, TaskStatus, $location) {
     $scope.tasks = TaskNames.getList();
     $scope.statuses = TaskStatus.getList();
 
+    function getItems() {
+        $scope.items = Scope.getList(function () {
+
+            $scope.pagination.total = Math.ceil($scope.items.length / $scope.pagination.itemsPerPage);
+            angular.forEach($scope.items, function (task) {
+                if (task.end_stamp)
+                    task.parsedDate = new Date(task.end_stamp);
+            })
+        });
+    }
 
     //get scope list
-    $scope.items = Scope.getList(function () {
-
-        $scope.pagination.total = Math.ceil($scope.items.length / $scope.pagination.itemsPerPage);
-        angular.forEach($scope.items, function (task) {
-            if (task.end_stamp)
-                task.parsedDate = new Date(task.end_stamp);
-        })
-    });
+    getItems();
 
 
     $scope.pagination = {
@@ -58,6 +61,14 @@ function ScopeListCtrl($scope, Scope, TaskNames, TaskStatus, $location) {
 
         if ($scope.searchDateTo.date !== undefined)
             $location.search('dateTo', DateToStr($scope.searchDateTo.date));
+    };
+
+    $scope.delete = function (id) {
+
+        Scope.delete({scopeId: id}, function () {
+            getItems();
+        });
+
     };
 
 
