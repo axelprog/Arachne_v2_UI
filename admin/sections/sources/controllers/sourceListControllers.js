@@ -3,9 +3,13 @@
 /* Controllers */
 
 function SourceListCtrl($scope, Source, $location) {
-    $scope.items = Source.getList(function () {
-        $scope.pagination.total = Math.ceil($scope.items.length / $scope.pagination.itemsPerPage);
-    });
+
+    function getItems() {
+        $scope.items = Source.getList(function () {
+            $scope.pagination.total = Math.ceil($scope.items.length / $scope.pagination.itemsPerPage);
+        });
+    };
+    getItems();
 
     $scope.pagination = {
         currentPage: 1,
@@ -32,6 +36,14 @@ function SourceListCtrl($scope, Source, $location) {
             $location.search('name', $scope.search.name);
         if ($scope.search.url !== undefined)
             $location.search('url', $scope.search.url);
+    };
+
+    $scope.delete = function (id) {
+
+        Source.delete({sourceId: id}, function () {
+            getItems();
+        });
+
     };
 }
 

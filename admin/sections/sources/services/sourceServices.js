@@ -9,6 +9,6 @@ angular.module('sourceServices', ['ngResource', 'configService']).
             getItem: {method: 'GET', params: {sourceId: ''}},
             create: {method: 'POST'},
             save: {method: 'PUT'},
-            delete: {method: 'DELETE'}
+            delete: {method: 'DELETE', params: {sourceId: ''}}
         });
     });
