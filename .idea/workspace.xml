@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7ca9660c-a489-4343-af78-98e6828324ea" name="Default" comment="" />
+    <list default="true" id="7ca9660c-a489-4343-af78-98e6828324ea" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="Arachne v2.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/sourcss.html" changelist="7ca9660c-a489-4343-af78-98e6828324ea" time="1368436455726" ignored="false" />
@@ -16,7 +18,7 @@
     <file path="/source-list.html" changelist="7ca9660c-a489-4343-af78-98e6828324ea" time="1370417943163" ignored="false" />
     <file path="/navigationController.js" changelist="7ca9660c-a489-4343-af78-98e6828324ea" time="1369210080458" ignored="false" />
     <file path="/app.js" changelist="7ca9660c-a489-4343-af78-98e6828324ea" time="1370595485268" ignored="false" />
-    <file path="/Dummy.txt" changelist="7ca9660c-a489-4343-af78-98e6828324ea" time="1370962169037" ignored="false" />
+    <file path="/Dummy.txt" changelist="7ca9660c-a489-4343-af78-98e6828324ea" time="1370962344322" ignored="false" />
     <file path="/bootstrap.css" changelist="7ca9660c-a489-4343-af78-98e6828324ea" time="1368628478334" ignored="false" />
     <file path="/sourceServices.js" changelist="7ca9660c-a489-4343-af78-98e6828324ea" time="1370417877773" ignored="false" />
     <file path="/a.dummy" changelist="7ca9660c-a489-4343-af78-98e6828324ea" time="1370956791761" ignored="false" />
@@ -59,7 +61,6 @@
     <file path="$APPLICATION_HOME_DIR$/plugins/xpath/lib/xpath.jar!/org/intellij/lang/xpath/xslt/resources/documentation.xml" changelist="7ca9660c-a489-4343-af78-98e6828324ea" time="1370521931536" ignored="false" />
     <file path="$APPLICATION_HOME_DIR$/plugins/xpath/lib/xpath.jar!/org/intellij/lang/xpath/xslt/resources/xslt-schema.xsd" changelist="7ca9660c-a489-4343-af78-98e6828324ea" time="1370521931536" ignored="false" />
     <file path="$APPLICATION_HOME_DIR$/lib/webstorm.jar!/standardSchemas/xhtml1-frameset.xsd" changelist="7ca9660c-a489-4343-af78-98e6828324ea" time="1370521931537" ignored="false" />
-    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="7ca9660c-a489-4343-af78-98e6828324ea" time="1370962252360" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +83,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="62" selection-start="937" selection-end="937" vertical-scroll-proportion="2.3076923">
+            <state line="16" column="62" selection-start="937" selection-end="937" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -100,7 +101,7 @@
       <file leaf-file-name="scope-list.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/admin/sections/scope/partials/scope-list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="90" column="46" selection-start="3603" selection-end="3603" vertical-scroll-proportion="0.66487455">
+            <state line="95" column="35" selection-start="3827" selection-end="3827" vertical-scroll-proportion="0.3100304">
               <folding />
             </state>
           </provider>
@@ -165,10 +166,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1358" />
-    <option name="y" value="-320" />
-    <option name="width" value="1936" />
-    <option name="height" value="1066" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -684,14 +685,14 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="150" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
-    <property name="recentsLimit" value="5" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="151" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="recentsLimit" value="5" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="151" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="825" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="825" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="825" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="151" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="150" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
@@ -906,25 +907,25 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1358" y="-320" width="1936" height="1066" extended-state="6" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18151815" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3278328" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22222222" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13180363" sideWeight="0.6710671" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25412542" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32893288" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32893288" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2497332" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12166489" sideWeight="0.6710671" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1310606" sideWeight="0.6712095" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12348485" sideWeight="0.6712095" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25412542" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32879046" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18151815" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22222222" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32893288" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3278328" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -1020,81 +1021,54 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/admin/misc/services/helperService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="12" selection-start="802" selection-end="802" vertical-scroll-proportion="0.5736196">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/components/select2/select2.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="42" selection-start="2988" selection-end="2992" vertical-scroll-proportion="-0.3924964">
-          <folding />
-        </state>
+        <state line="76" column="42" selection-start="2988" selection-end="2992" vertical-scroll-proportion="-0.3924964" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/angular/angular-resource.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="596" selection-end="596" vertical-scroll-proportion="0.05320814">
-          <folding />
-        </state>
+        <state line="6" column="0" selection-start="596" selection-end="596" vertical-scroll-proportion="0.05320814" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/angular/angular.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3305" column="117" selection-start="123484" selection-end="123484" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="3305" column="117" selection-start="123484" selection-end="123484" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/sections/sources/partials/source-detail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="32" selection-start="87" selection-end="87" vertical-scroll-proportion="0.08146965">
-          <folding />
-        </state>
+        <state line="3" column="32" selection-start="87" selection-end="87" vertical-scroll-proportion="0.08146965" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/sections/tasks/partials/task-detail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="12" selection-start="100" selection-end="160" vertical-scroll-proportion="0.1086262">
-          <folding />
-        </state>
+        <state line="4" column="12" selection-start="100" selection-end="160" vertical-scroll-proportion="0.1086262" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/sections/scope/partials/scope-detail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="74" selection-start="549" selection-end="549" vertical-scroll-proportion="0.40734825">
-          <folding />
-        </state>
+        <state line="15" column="74" selection-start="549" selection-end="549" vertical-scroll-proportion="0.40734825" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/sections/tasks/partials/task-list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="102" column="36" selection-start="3727" selection-end="4101" vertical-scroll-proportion="0.7374046">
-          <folding />
-        </state>
+        <state line="102" column="36" selection-start="3727" selection-end="4101" vertical-scroll-proportion="0.7374046" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/sections/scope/controllers/scopeController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="78" selection-start="395" selection-end="395" vertical-scroll-proportion="0.29955947">
-          <folding />
-        </state>
+        <state line="12" column="78" selection-start="395" selection-end="395" vertical-scroll-proportion="0.29955947" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/sections/tasks/controllers/taskController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="29" selection-start="629" selection-end="629" vertical-scroll-proportion="0.33231708">
-          <folding />
-        </state>
+        <state line="18" column="29" selection-start="629" selection-end="629" vertical-scroll-proportion="0.33231708" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/select2/select2.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="33098" selection-end="46688" vertical-scroll-proportion="0.05320814">
-          <folding />
-        </state>
+        <state line="21" column="0" selection-start="33098" selection-end="46688" vertical-scroll-proportion="0.05320814" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/app.js">
@@ -1113,9 +1087,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/sections/tasks/controllers/taskListController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="43" selection-start="224" selection-end="263" vertical-scroll-proportion="0.2607362">
-          <folding />
-        </state>
+        <state line="10" column="43" selection-start="224" selection-end="263" vertical-scroll-proportion="0.2607362" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/sections/scope/controllers/scopeListController.js">
@@ -1125,9 +1097,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/admin/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="62" selection-start="937" selection-end="937" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/admin/sections/scope/partials/scope-list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="90" column="46" selection-start="3603" selection-end="3603" vertical-scroll-proportion="0.66487455">
+        <state line="95" column="35" selection-start="3827" selection-end="3827" vertical-scroll-proportion="0.3100304">
           <folding />
         </state>
       </provider>
