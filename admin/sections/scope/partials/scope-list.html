@@ -88,9 +88,21 @@
                     <div class="control-group item">
                         <label class="control-label">Таски:</label>
 
-                        <!--<div class="controls">-->
-                        <!--<p>{{(tasks | getById:scope.source_id).name}}</p>-->
-                        <!--</div>-->
+                        <div class="controls">
+                            <p><span ng-repeat="task in (tasks | getById:scope.tasks)">{{task.name}}{{$last && ' ' || ', '}}</span>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="control-group item">
+                        <label class="control-label">Тэги:</label>
+
+                        <div class="controls">
+                            <input type="hidden" ui-select2="select2options" ng-model="scope.tags"
+                                   ng-change="changeTagList(task)" disabled/>
+
+                        </div>
+
                     </div>
                 </div>
 

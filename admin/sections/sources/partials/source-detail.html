@@ -2,7 +2,7 @@
     <ul class="itemList">
         <!-- header-->
         <li class="page-header">
-            <h3>{{["Создание", "Редактирование"][(item.id != '' )+0]}} источника</h3>
+            <h3>{{item.id && "Редактирование" || "Создание"}} источника</h3>
         </li>
 
         <li class="thumbnail">

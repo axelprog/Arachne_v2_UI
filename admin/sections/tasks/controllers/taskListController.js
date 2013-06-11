@@ -3,9 +3,29 @@
 
 /* Controllers */
 
-function TaskListCtrl($scope, Task, SourceNames, TaskStatus, HelperFunc, $location) {
+function TaskListCtrl($scope, Task, TaskTagSave, TaskTagList, SourceNames, TaskStatus, HelperFunc, $location, $filter) {
+
     $scope.searchDateFrom = {};
     $scope.searchDateTo = {};
+
+    $scope.tagList = TaskTagList.getList();
+
+    //select2 options
+    $scope.select2options = {
+        allowClear: true,
+        tags: $scope.tagList,
+//        tags: ["ccc", "ддд", "ффф", "иии", "ццц"],
+        tokenSeparators: [","],
+        formatResult: function (state) {
+            return state.text
+        },
+        formatSelection: function (state) {
+            return state.text
+        },
+        escapeMarkup: function (m) {
+            return m;
+        }
+    }
 
     //get source list
     $scope.sources = SourceNames.getList();
@@ -20,7 +40,10 @@ function TaskListCtrl($scope, Task, SourceNames, TaskStatus, HelperFunc, $locati
             angular.forEach($scope.items, function (task) {
                 if (task.end_stamp)
                     task.parsedDate = new Date(task.end_stamp);
+                //HACK while use select2 for tagging system
+                task.isInitTag = true;
             })
+
         });
     };
 
@@ -69,6 +92,20 @@ function TaskListCtrl($scope, Task, SourceNames, TaskStatus, HelperFunc, $locati
         Task.delete({taskId: id}, function () {
             getItems();
         });
+
+    };
+
+    $scope.changeTagList = function (task) {
+        if (task.isInitTag) {
+            task.isInitTag = false;
+            return;
+        }
+//        alert(task.id + " -> " + $filter('json')(task.tags));
+        var tags = [];
+        angular.forEach(task.tags, function (tag) {
+            tags.push(tag.text);
+        });
+        TaskTagSave.save({taskId: task.id}, {tags: tags});
 
     };
 }

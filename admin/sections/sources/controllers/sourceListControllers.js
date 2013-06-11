@@ -11,6 +11,7 @@ function SourceListCtrl($scope, Source, $location) {
     };
     getItems();
 
+
     $scope.pagination = {
         currentPage: 1,
         total: 1,

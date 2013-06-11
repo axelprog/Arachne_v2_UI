@@ -2,9 +2,14 @@ function ScopeCtrl($scope, $routeParams, Scope, TaskNames, $location, $q, $timeo
     var scopeId = $routeParams.scopeId;
     var isNew = false;
 
-
     //get source list
-    $scope.tasks = (TaskNames.getList());
+
+    $scope.taskTag = []
+    $scope.tasks = TaskNames.getList(function () {
+        angular.forEach($scope.tasks, function (task) {
+            $scope.taskTag.push({id: task.id, text: task.name});
+        })
+    });
 
     //get task info
     if (scopeId) {

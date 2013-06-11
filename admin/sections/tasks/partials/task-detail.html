@@ -2,7 +2,7 @@
     <ul class="itemList">
         <!-- header-->
         <li class="page-header">
-            <h3>{{["Создание", "Редактирование"][(item.id != '' )+0]}} таска</h3>
+            <h3>{{item.id && "Редактирование" || "Создание"}} таска</h3>
         </li>
 
         <li class="thumbnail">
@@ -33,6 +33,8 @@
                             <select type="text" ng-model="item.source_id" name="selectSource" id="selectSource" required
                                     ng-options="src.id as src.name for src in sources">
                             </select>
+
+
                         </div>
                     </div>
 
@@ -41,6 +43,13 @@
 
                         <div class="controls">
                             <textarea rows="4" ng-model="item.attr" id="inputAttr"></textarea>
+                        </div>
+                    </div>
+                    <div class="control-group ">
+                        <label class="control-label">Тэги:</label>
+
+                        <div class="controls">
+                            <input type="hidden" ui-select2="select2options" ng-model="item.tags"/>
                         </div>
                     </div>
 

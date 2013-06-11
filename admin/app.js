@@ -2,7 +2,7 @@
 
 var app = angular.module('Arachne', ['configService', 'Pagination', 'Chosen', 'sourceServices',
         'taskServices', 'scopeServices', 'paginationFilters', 'listFilters', 'helperService',
-        '$strap.directives']).
+        '$strap.directives', 'ui.select2']).
     config(['$routeProvider', function ($routeProvider) {
 
         $routeProvider

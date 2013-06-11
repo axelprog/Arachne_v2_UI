@@ -2,14 +2,16 @@
 
 angular.module('listFilters', [])
     .filter('getById', function () {
-        return function (input, id) {
+        return function (input, idsList) {
             var length = input.length;
+            var filtrated = [];
+
             for (var i = 0; i < length; i++) {
-                if (input[i].id === id) {
-                    return input[i];
+                if (idsList.indexOf(input[i].id) != -1) {
+                    filtrated.push(input[i]);
                 }
             }
-            return null;
+            return filtrated;
         }
     })
     .filter('getByType', function () {
@@ -18,6 +20,7 @@ angular.module('listFilters', [])
             for (var i = 0; i < length; i++) {
                 if (input[i].type === idType) {
                     return input[i];
+                    input[0].id
                 }
             }
             return null;

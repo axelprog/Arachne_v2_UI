@@ -3,9 +3,26 @@
 
 /* Controllers */
 
-function ScopeListCtrl($scope, Scope, TaskNames, TaskStatus, $location) {
+function ScopeListCtrl($scope, Scope, TaskNames, TaskTagList, TaskStatus, $location) {
     $scope.searchDateFrom = {};
     $scope.searchDateTo = {};
+
+
+    //select2 options
+    $scope.select2options = {
+        allowClear: true,
+        tags: [],
+        tokenSeparators: [","],
+        formatResult: function (state) {
+            return state.text
+        },
+        formatSelection: function (state) {
+            return state.text
+        },
+        escapeMarkup: function (m) {
+            return m;
+        }
+    };
 
     //get source list
     $scope.tasks = TaskNames.getList();
@@ -18,7 +35,15 @@ function ScopeListCtrl($scope, Scope, TaskNames, TaskStatus, $location) {
             angular.forEach($scope.items, function (task) {
                 if (task.end_stamp)
                     task.parsedDate = new Date(task.end_stamp);
+                var tags = task.tags;
+                var changeTags = [];
+                angular.forEach(tags, function (tag) {
+                    changeTags.push({id: tag, text: tag})
+                });
+                task.tags = changeTags;
+
             })
+
         });
     }
 
