@@ -1,23 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7ca9660c-a489-4343-af78-98e6828324ea" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/app.js" afterPath="$PROJECT_DIR$/admin/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/index.html" afterPath="$PROJECT_DIR$/admin/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/misc/filters/listFilter.js" afterPath="$PROJECT_DIR$/admin/misc/filters/listFilter.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/sections/scope/partials/scope-detail.html" afterPath="$PROJECT_DIR$/admin/sections/scope/partials/scope-detail.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/sections/scope/partials/scope-list.html" afterPath="$PROJECT_DIR$/admin/sections/scope/partials/scope-list.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/sections/scope/controllers/scopeController.js" afterPath="$PROJECT_DIR$/admin/sections/scope/controllers/scopeController.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/sections/scope/controllers/scopeListController.js" afterPath="$PROJECT_DIR$/admin/sections/scope/controllers/scopeListController.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/sections/sources/partials/source-detail.html" afterPath="$PROJECT_DIR$/admin/sections/sources/partials/source-detail.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/sections/sources/controllers/sourceListControllers.js" afterPath="$PROJECT_DIR$/admin/sections/sources/controllers/sourceListControllers.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/sections/tasks/partials/task-detail.html" afterPath="$PROJECT_DIR$/admin/sections/tasks/partials/task-detail.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/sections/tasks/partials/task-list.html" afterPath="$PROJECT_DIR$/admin/sections/tasks/partials/task-list.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/sections/tasks/controllers/taskController.js" afterPath="$PROJECT_DIR$/admin/sections/tasks/controllers/taskController.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/sections/tasks/controllers/taskListController.js" afterPath="$PROJECT_DIR$/admin/sections/tasks/controllers/taskListController.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/sections/tasks/services/taskService.js" afterPath="$PROJECT_DIR$/admin/sections/tasks/services/taskService.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="7ca9660c-a489-4343-af78-98e6828324ea" name="Default" comment="" />
     <ignored path="Arachne v2.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/sourcss.html" changelist="7ca9660c-a489-4343-af78-98e6828324ea" time="1368436455726" ignored="false" />
@@ -32,7 +16,7 @@
     <file path="/source-list.html" changelist="7ca9660c-a489-4343-af78-98e6828324ea" time="1370417943163" ignored="false" />
     <file path="/navigationController.js" changelist="7ca9660c-a489-4343-af78-98e6828324ea" time="1369210080458" ignored="false" />
     <file path="/app.js" changelist="7ca9660c-a489-4343-af78-98e6828324ea" time="1370595485268" ignored="false" />
-    <file path="/Dummy.txt" changelist="7ca9660c-a489-4343-af78-98e6828324ea" time="1370934469385" ignored="false" />
+    <file path="/Dummy.txt" changelist="7ca9660c-a489-4343-af78-98e6828324ea" time="1370962169037" ignored="false" />
     <file path="/bootstrap.css" changelist="7ca9660c-a489-4343-af78-98e6828324ea" time="1368628478334" ignored="false" />
     <file path="/sourceServices.js" changelist="7ca9660c-a489-4343-af78-98e6828324ea" time="1370417877773" ignored="false" />
     <file path="/a.dummy" changelist="7ca9660c-a489-4343-af78-98e6828324ea" time="1370956791761" ignored="false" />
@@ -75,6 +59,7 @@
     <file path="$APPLICATION_HOME_DIR$/plugins/xpath/lib/xpath.jar!/org/intellij/lang/xpath/xslt/resources/documentation.xml" changelist="7ca9660c-a489-4343-af78-98e6828324ea" time="1370521931536" ignored="false" />
     <file path="$APPLICATION_HOME_DIR$/plugins/xpath/lib/xpath.jar!/org/intellij/lang/xpath/xslt/resources/xslt-schema.xsd" changelist="7ca9660c-a489-4343-af78-98e6828324ea" time="1370521931536" ignored="false" />
     <file path="$APPLICATION_HOME_DIR$/lib/webstorm.jar!/standardSchemas/xhtml1-frameset.xsd" changelist="7ca9660c-a489-4343-af78-98e6828324ea" time="1370521931537" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="7ca9660c-a489-4343-af78-98e6828324ea" time="1370962252360" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +82,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="62" selection-start="937" selection-end="937" vertical-scroll-proportion="-0.65384614">
+            <state line="16" column="62" selection-start="937" selection-end="937" vertical-scroll-proportion="2.3076923">
               <folding />
             </state>
           </provider>
@@ -115,7 +100,7 @@
       <file leaf-file-name="scope-list.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/admin/sections/scope/partials/scope-list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="90" column="116" selection-start="3603" selection-end="3603" vertical-scroll-proportion="0.5926518">
+            <state line="90" column="46" selection-start="3603" selection-end="3603" vertical-scroll-proportion="0.66487455">
               <folding />
             </state>
           </provider>
@@ -124,7 +109,7 @@
       <file leaf-file-name="scopeListController.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin/sections/scope/controllers/scopeListController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="70" selection-start="548" selection-end="548" vertical-scroll-proportion="0.0">
+            <state line="23" column="9" selection-start="549" selection-end="549" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -893,7 +878,11 @@
       <created>1370440242816</created>
       <updated>1370440242816</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="add tagging system">
+      <created>1370962184682</created>
+      <updated>1370962184682</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -918,24 +907,24 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-320" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18151815" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3278328" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22222222" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2497332" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13180363" sideWeight="0.7458746" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12166489" sideWeight="0.7458746" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25412542" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13180363" sideWeight="0.6710671" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25412542" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32893288" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32893288" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32893288" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2497332" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12166489" sideWeight="0.6710671" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32893288" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3278328" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -984,7 +973,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="add delete to sorces" />
+    <option name="LAST_COMMIT_MESSAGE" value="add tagging system" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1011,18 +1000,19 @@
     <MESSAGE value="small fixes" />
     <MESSAGE value="add UI for scopes, add delete func to scopes &amp; tasks" />
     <MESSAGE value="add delete to sorces" />
+    <MESSAGE value="add tagging system" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/admin/misc/filters/listFilter.js</url>
-          <line>37</line>
+          <line>38</line>
           <option name="timeStamp" value="112" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/admin/sections/scope/controllers/scopeListController.js</url>
-          <line>35</line>
+          <line>34</line>
           <option name="timeStamp" value="175" />
         </line-breakpoint>
       </breakpoints>
@@ -1130,14 +1120,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/sections/scope/controllers/scopeListController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="70" selection-start="548" selection-end="548" vertical-scroll-proportion="0.0">
+        <state line="23" column="9" selection-start="549" selection-end="549" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/sections/scope/partials/scope-list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="90" column="116" selection-start="3603" selection-end="3603" vertical-scroll-proportion="0.5926518">
+        <state line="90" column="46" selection-start="3603" selection-end="3603" vertical-scroll-proportion="0.66487455">
           <folding />
         </state>
       </provider>
