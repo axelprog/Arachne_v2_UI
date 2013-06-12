@@ -1,13 +1,14 @@
-function TaskCtrl($scope, $routeParams, Task, TaskTagSave, TaskTagList, SourceNames, $location) {
+function TaskCtrl($scope, $routeParams, Task, TaskTagList, SourceNames, $location) {
     var taskId = $routeParams.taskId;
     var isNew = false;
 
-    function saveTags(id, tagsList, callback) {
+    function saveTags(tagsList) {
         var tags = [];
         angular.forEach(tagsList, function (tag) {
             tags.push(tag.text);
         });
-        TaskTagSave.save({taskId: id}, {tags: tags}, callback);
+        //TaskTagSave.save({taskId: id}, {tags: tags}, callback);
+        return tags;
     }
 
     $scope.tagList = TaskTagList.getList();
@@ -42,16 +43,13 @@ function TaskCtrl($scope, $routeParams, Task, TaskTagSave, TaskTagList, SourceNa
     }
 
     $scope.save = function () {
+        $scope.item.tags = saveTags($scope.item.tags)
         if (isNew) {
             Task.create($scope.item, function (data) {
-                saveTags(data.task.id, $scope.item.tags, function () {
-                    $location.path('/task');
-                });
+                $location.path('/task');
             });
         }
         else {
-
-            saveTags($scope.item.id.$scope.item.tags)
             $scope.item.$save({taskId: $scope.item.id}, function () {
                 $location.path('/task');
             });
