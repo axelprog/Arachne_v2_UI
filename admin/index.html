@@ -8,6 +8,7 @@
     <script type="text/javascript" src="../lib/bootstrap/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="../lib/angular/angular.min.js"></script>
     <script type="text/javascript" src="../lib/angular/angular-resource.min.js"></script>
+    <script type="text/javascript" src="../lib/angular/angular-cookies.min.js"></script>
     <script type="text/javascript" src="../lib/angular-strap/angular-strap.js"></script>
     <script type="text/javascript" src="../lib/angular-strap/bootstrap-datepicker.js"></script>
     <script type="text/javascript" src="../lib/chosen/chosen.jquery.min.js"></script>
@@ -27,9 +28,15 @@
     <script type="text/javascript" src="../lib/angular/angular-locale_ru-ru.js"></script>
     <script type="text/javascript" src="../lib/angular-strap/bootstrap-datepicker.ru.js" charset="UTF-8"></script>
 
+
     <!--main app-->
     <script type="text/javascript" src="app.js"></script>
 
+    <!--authorization-->
+    <script type="text/javascript" src="auth/routingConfig.js"></script>
+    <script type="text/javascript" src="auth/directives.js"></script>
+    <script type="text/javascript" src="auth/services.js"></script>
+    <script type="text/javascript" src="auth/loginCtrl.js"></script>
 
     <!--services-->
     <script type="text/javascript" src="misc/services/configService.js"></script>
@@ -45,7 +52,7 @@
     <script type="text/javascript" src="sections/tasks/controllers/taskController.js"></script>
     <script type="text/javascript" src="sections/scope/controllers/scopeListController.js"></script>
     <script type="text/javascript" src="sections/scope/controllers/scopeController.js"></script>
-    <script type="text/javascript" src="components/pagination/controllers/navigationController.js"></script>
+    <script type="text/javascript" src="misc/controllers/navigationController.js"></script>
 
     <!--filters-->
     <script type="text/javascript" src="components/pagination/filters/paginationFilter.js"></script>
@@ -65,12 +72,25 @@
         <!-- navigation bar-->
         <div class="navbar" ng-controller="navCtrl">
             <div class="navbar-inner">
-                <a class="brand" href="#">Arachne v2</a>
-                <ul class="nav">
-                    <li ng-class="navClass('scope')"><a href="#/scope">Скоупы</a></li>
-                    <li ng-class="navClass('task')"><a href="#/task">Таски</a></li>
-                    <li ng-class="navClass('source')"><a href="#/source">Источники</a></li>
-                </ul>
+                <div class="container">
+                    <a class="brand" href="#">Arachne v2</a>
+
+                    <ul class="nav">
+                        <li ng-class="navClass('scope')"><a href="#/scope">Скоупы</a></li>
+                        <li ng-class="navClass('task')"><a href="#/task">Таски</a></li>
+                        <li ng-class="navClass('source')"><a href="#/source">Источники</a></li>
+                    </ul>
+                    <div class="pull-right">
+                        <a class="btn btn-inverse" data-ng-click="logout()"> Выйти</a>
+                    </div>
+                    <div class="navbar-text pull-right">
+                        Вы вошли как <strong>{{user.username }}</strong>
+                        <span data-ng-class="{'label-info': user.role == userRoles.user, 'label-success': user.role == userRoles.admin}"
+                              class="label">{{ getUserRoleText(user.role) }}</span>
+                        &nbsp
+                    </div>
+                </div>
+
             </div>
         </div>
 

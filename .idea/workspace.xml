@@ -2,30 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ca9660c-a489-4343-af78-98e6828324ea" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/sections/tasks/controllers/taskController.js" afterPath="$PROJECT_DIR$/admin/sections/tasks/controllers/taskController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/auth/loginCtrl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/angular/angular-resource.min.js" afterPath="$PROJECT_DIR$/lib/angular/angular-resource.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/angular/angular.min.js" afterPath="$PROJECT_DIR$/lib/angular/angular.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/app.js" afterPath="$PROJECT_DIR$/admin/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/misc/services/configService.js" afterPath="$PROJECT_DIR$/admin/misc/services/configService.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/index.html" afterPath="$PROJECT_DIR$/admin/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="D:\work\Lenski\Arachne_v2_UI\Arachne_v2_UI\admin\components\pagination\controllers\navigationController.js" afterPath="$PROJECT_DIR$/admin/misc/controllers/navigationController.js" />
     </list>
     <ignored path="Arachne v2.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/sourcss.html" changelist="7ca9660c-a489-4343-af78-98e6828324ea" time="1368436455726" ignored="false" />
     <file path="/Sources.html" changelist="7ca9660c-a489-4343-af78-98e6828324ea" time="1368438439744" ignored="false" />
-    <file path="/dummy.xml" changelist="7ca9660c-a489-4343-af78-98e6828324ea" time="1370417943163" ignored="false" />
+    <file path="/dummy.xml" changelist="7ca9660c-a489-4343-af78-98e6828324ea" time="1371216854300" ignored="false" />
     <file path="/sources.html" changelist="7ca9660c-a489-4343-af78-98e6828324ea" time="1368610832001" ignored="false" />
     <file path="/SourceControllers.js" changelist="7ca9660c-a489-4343-af78-98e6828324ea" time="1368450257726" ignored="false" />
-    <file path="/index.html" changelist="7ca9660c-a489-4343-af78-98e6828324ea" time="1370506822918" ignored="false" />
-    <file path="/fragment.js" changelist="7ca9660c-a489-4343-af78-98e6828324ea" time="1370957583005" ignored="false" />
+    <file path="/index.html" changelist="7ca9660c-a489-4343-af78-98e6828324ea" time="1371218785753" ignored="false" />
+    <file path="/fragment.js" changelist="7ca9660c-a489-4343-af78-98e6828324ea" time="1371213552816" ignored="false" />
     <file path="/main.css" changelist="7ca9660c-a489-4343-af78-98e6828324ea" time="1369314660623" ignored="false" />
     <file path="/source-detail.html" changelist="7ca9660c-a489-4343-af78-98e6828324ea" time="1370352047389" ignored="false" />
     <file path="/source-list.html" changelist="7ca9660c-a489-4343-af78-98e6828324ea" time="1370417943163" ignored="false" />
-    <file path="/navigationController.js" changelist="7ca9660c-a489-4343-af78-98e6828324ea" time="1369210080458" ignored="false" />
-    <file path="/app.js" changelist="7ca9660c-a489-4343-af78-98e6828324ea" time="1370595485268" ignored="false" />
-    <file path="/Dummy.txt" changelist="7ca9660c-a489-4343-af78-98e6828324ea" time="1371021211442" ignored="false" />
+    <file path="/navigationController.js" changelist="7ca9660c-a489-4343-af78-98e6828324ea" time="1371218994433" ignored="false" />
+    <file path="/app.js" changelist="7ca9660c-a489-4343-af78-98e6828324ea" time="1371206907834" ignored="false" />
+    <file path="/Dummy.txt" changelist="7ca9660c-a489-4343-af78-98e6828324ea" time="1371193606784" ignored="false" />
     <file path="/bootstrap.css" changelist="7ca9660c-a489-4343-af78-98e6828324ea" time="1368628478334" ignored="false" />
     <file path="/sourceServices.js" changelist="7ca9660c-a489-4343-af78-98e6828324ea" time="1370417877773" ignored="false" />
-    <file path="/a.dummy" changelist="7ca9660c-a489-4343-af78-98e6828324ea" time="1370956791761" ignored="false" />
+    <file path="/a.dummy" changelist="7ca9660c-a489-4343-af78-98e6828324ea" time="1371218900950" ignored="false" />
     <file path="/sourceControllers.js" changelist="7ca9660c-a489-4343-af78-98e6828324ea" time="1368795013294" ignored="false" />
     <file path="/sourceFilter.js" changelist="7ca9660c-a489-4343-af78-98e6828324ea" time="1369305354822" ignored="false" />
-    <file path="/configService.js" changelist="7ca9660c-a489-4343-af78-98e6828324ea" time="1368777357112" ignored="false" />
+    <file path="/configService.js" changelist="7ca9660c-a489-4343-af78-98e6828324ea" time="1371200813289" ignored="false" />
     <file path="/sourceListControllers.js" changelist="7ca9660c-a489-4343-af78-98e6828324ea" time="1370418047652" ignored="false" />
     <file path="/paginator.js" changelist="7ca9660c-a489-4343-af78-98e6828324ea" time="1369402920018" ignored="false" />
     <file path="/paginator.html" changelist="7ca9660c-a489-4343-af78-98e6828324ea" time="1369402821755" ignored="false" />
@@ -62,6 +69,10 @@
     <file path="$APPLICATION_HOME_DIR$/plugins/xpath/lib/xpath.jar!/org/intellij/lang/xpath/xslt/resources/documentation.xml" changelist="7ca9660c-a489-4343-af78-98e6828324ea" time="1370521931536" ignored="false" />
     <file path="$APPLICATION_HOME_DIR$/plugins/xpath/lib/xpath.jar!/org/intellij/lang/xpath/xslt/resources/xslt-schema.xsd" changelist="7ca9660c-a489-4343-af78-98e6828324ea" time="1370521931536" ignored="false" />
     <file path="$APPLICATION_HOME_DIR$/lib/webstorm.jar!/standardSchemas/xhtml1-frameset.xsd" changelist="7ca9660c-a489-4343-af78-98e6828324ea" time="1370521931537" ignored="false" />
+    <file path="/directives.js" changelist="7ca9660c-a489-4343-af78-98e6828324ea" time="1371044193579" ignored="false" />
+    <file path="/loginCtrl.js" changelist="7ca9660c-a489-4343-af78-98e6828324ea" time="1371196559627" ignored="false" />
+    <file path="/login.htm" changelist="7ca9660c-a489-4343-af78-98e6828324ea" time="1371217395937" ignored="false" />
+    <file path="/services.js" changelist="7ca9660c-a489-4343-af78-98e6828324ea" time="1371214960929" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +95,61 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="62" selection-start="937" selection-end="937" vertical-scroll-proportion="0.0">
+            <state line="79" column="22" selection-start="4135" selection-end="4135" vertical-scroll-proportion="-5.3333335">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="navigationController.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/misc/controllers/navigationController.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="25" selection-start="249" selection-end="249" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="loginCtrl.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/auth/loginCtrl.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="15" selection-start="15" selection-end="15" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.htm" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/admin/auth/login.htm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="71" selection-start="672" selection-end="672" vertical-scroll-proportion="0.317757">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="directives.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/auth/directives.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="28" selection-start="96" selection-end="108" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="services.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/auth/services.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="34" selection-start="612" selection-end="612" vertical-scroll-proportion="-11.56">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="routingConfig.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/auth/routingConfig.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="31" selection-start="327" selection-end="327" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -93,43 +158,16 @@
       <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="117" selection-start="1448" selection-end="1448" vertical-scroll-proportion="0.0">
+            <state line="4" column="58" selection-start="263" selection-end="263" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="scope-list.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/sections/scope/partials/scope-list.html">
+      <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="95" column="35" selection-start="3827" selection-end="3827" vertical-scroll-proportion="-8.884615">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="taskController.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/admin/sections/tasks/controllers/taskController.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="0" selection-start="1159" selection-end="1441" vertical-scroll-proportion="0.7131902">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="scopeListController.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/sections/scope/controllers/scopeListController.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="18" selection-start="864" selection-end="864" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="taskService.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/sections/tasks/services/taskService.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="49" selection-start="693" selection-end="693" vertical-scroll-proportion="0.0">
+            <state line="70" column="1" selection-start="1226" selection-end="1226" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -156,22 +194,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/admin/sections/sources/partials/source-list.html" />
-        <option value="$PROJECT_DIR$/admin/index.html" />
-        <option value="$PROJECT_DIR$/admin/app.js" />
-        <option value="$PROJECT_DIR$/admin/sections/sources/services/sourceServices.js" />
-        <option value="$PROJECT_DIR$/admin/misc/filters/listFilter.js" />
-        <option value="$PROJECT_DIR$/admin/sections/scope/controllers/scopeController.js" />
-        <option value="$PROJECT_DIR$/admin/sections/sources/controllers/sourceListControllers.js" />
-        <option value="$PROJECT_DIR$/admin/sections/tasks/services/taskService.js" />
-        <option value="$PROJECT_DIR$/admin/sections/tasks/partials/task-list.html" />
-        <option value="$PROJECT_DIR$/admin/sections/tasks/partials/task-detail.html" />
         <option value="$PROJECT_DIR$/admin/sections/sources/partials/source-detail.html" />
         <option value="$PROJECT_DIR$/admin/sections/scope/partials/scope-detail.html" />
         <option value="$PROJECT_DIR$/admin/sections/tasks/controllers/taskListController.js" />
         <option value="$PROJECT_DIR$/admin/sections/scope/controllers/scopeListController.js" />
         <option value="$PROJECT_DIR$/admin/sections/scope/partials/scope-list.html" />
         <option value="$PROJECT_DIR$/admin/sections/tasks/controllers/taskController.js" />
+        <option value="$PROJECT_DIR$/admin/auth/directives.js" />
+        <option value="$PROJECT_DIR$/admin/auth/loginCtrl.js" />
+        <option value="$PROJECT_DIR$/admin/misc/services/configService.js" />
+        <option value="$PROJECT_DIR$/admin/auth/routingConfig.js" />
+        <option value="$PROJECT_DIR$/admin/app.js" />
+        <option value="$PROJECT_DIR$/admin/auth/services.js" />
+        <option value="$PROJECT_DIR$/css/main.css" />
+        <option value="$PROJECT_DIR$/admin/index.html" />
+        <option value="$PROJECT_DIR$/admin/misc/controllers/navigationController.js" />
+        <option value="$PROJECT_DIR$/admin/auth/login.htm" />
       </list>
     </option>
   </component>
@@ -235,7 +273,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -251,74 +288,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Arachne_v2_UI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Arachne v2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Arachne_v2_UI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="select2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Arachne v2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Arachne_v2_UI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Arachne v2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Arachne_v2_UI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chosen" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Arachne v2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Arachne_v2_UI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angular" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -397,10 +366,6 @@
               <option name="myItemId" value="tasks" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="partials" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -417,92 +382,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="sections" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tasks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Arachne v2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Arachne_v2_UI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sections" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="services" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Arachne v2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Arachne_v2_UI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sections" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="partials" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Arachne v2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Arachne_v2_UI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sections" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -525,10 +404,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="scope" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="services" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -623,10 +498,6 @@
               <option name="myItemId" value="misc" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="filters" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -643,6 +514,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="misc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -663,10 +538,6 @@
               <option name="myItemId" value="components" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="select2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -682,12 +553,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
+              <option name="myItemId" value="auth" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -897,10 +769,14 @@
       <created>1370962388757</created>
       <updated>1370962388757</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="change save tags in edit/new task">
+      <created>1371022434636</created>
+      <updated>1371022434636</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
-  <component name="TodoView" selected-index="4">
+  <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
       <are-packages-shown value="false" />
       <are-modules-shown value="false" />
@@ -926,11 +802,12 @@
     <layout>
       <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18151815" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3278328" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3278328" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22222222" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2497332" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13500534" sideWeight="0.7458746" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14140876" sideWeight="0.7458746" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25412542" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13500534" sideWeight="0.7777778" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14461046" sideWeight="0.7777778" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2728273" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.13641365" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -938,7 +815,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22222222" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32893288" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3278328" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -988,7 +864,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="add tagging system" />
+    <option name="LAST_COMMIT_MESSAGE" value="change save tags in edit/new task" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1016,6 +892,7 @@
     <MESSAGE value="add UI for scopes, add delete func to scopes &amp; tasks" />
     <MESSAGE value="add delete to sorces" />
     <MESSAGE value="add tagging system" />
+    <MESSAGE value="change save tags in edit/new task" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1025,99 +902,125 @@
           <line>38</line>
           <option name="timeStamp" value="112" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/admin/app.js</url>
+          <line>94</line>
+          <option name="timeStamp" value="187" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="178" />
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="194" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/admin/components/select2/select2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="42" selection-start="2988" selection-end="2992" vertical-scroll-proportion="-0.3924964" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/angular/angular-resource.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="596" selection-end="596" vertical-scroll-proportion="0.05320814" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/angular/angular.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3305" column="117" selection-start="123484" selection-end="123484" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/sections/sources/partials/source-detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="32" selection-start="87" selection-end="87" vertical-scroll-proportion="0.08146965" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/sections/tasks/partials/task-detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="12" selection-start="100" selection-end="160" vertical-scroll-proportion="0.1086262" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/sections/scope/partials/scope-detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="74" selection-start="549" selection-end="549" vertical-scroll-proportion="0.40734825" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/sections/tasks/partials/task-list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="102" column="36" selection-start="3727" selection-end="4101" vertical-scroll-proportion="0.7374046" />
+        <state line="95" column="68" selection-start="3826" selection-end="3826" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/sections/scope/controllers/scopeController.js">
+    <entry file="file://$PROJECT_DIR$/admin/components/chosen/chosen.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="78" selection-start="395" selection-end="395" vertical-scroll-proportion="0.29955947" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/select2/select2.min.js">
+    <entry file="file://$PROJECT_DIR$/admin/sections/scope/controllers/scopeListController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="33098" selection-end="46688" vertical-scroll-proportion="0.05320814" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="117" selection-start="1448" selection-end="1448" vertical-scroll-proportion="0.0">
+        <state line="43" column="48" selection-start="1254" selection-end="1254" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/sections/tasks/services/taskService.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="49" selection-start="693" selection-end="693" vertical-scroll-proportion="0.0">
+        <state line="5" column="35" selection-start="131" selection-end="131" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/sections/tasks/controllers/taskListController.js">
+    <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="43" selection-start="224" selection-end="263" vertical-scroll-proportion="0.2607362" />
+        <state line="70" column="1" selection-start="1226" selection-end="1226" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/sections/scope/partials/scope-detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="69" selection-start="447" selection-end="485" vertical-scroll-proportion="0.33740458">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/misc/services/configService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="53" selection-start="231" selection-end="256" vertical-scroll-proportion="0.19970632">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/auth/routingConfig.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="31" selection-start="327" selection-end="327" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/auth/services.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="34" selection-start="612" selection-end="612" vertical-scroll-proportion="-11.56">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/auth/directives.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="28" selection-start="96" selection-end="108" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="62" selection-start="937" selection-end="937" vertical-scroll-proportion="0.0">
+        <state line="79" column="22" selection-start="4135" selection-end="4135" vertical-scroll-proportion="-5.3333335">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/sections/scope/partials/scope-list.html">
+    <entry file="file://$PROJECT_DIR$/admin/sections/scope/controllers/scopeController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="95" column="35" selection-start="3827" selection-end="3827" vertical-scroll-proportion="-8.884615">
+        <state line="17" column="81" selection-start="524" selection-end="524" vertical-scroll-proportion="0.42437592">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/sections/scope/controllers/scopeListController.js">
+    <entry file="file://$PROJECT_DIR$/admin/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="18" selection-start="864" selection-end="864" vertical-scroll-proportion="0.0">
+        <state line="4" column="58" selection-start="263" selection-end="263" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/sections/tasks/controllers/taskController.js">
+    <entry file="file://$PROJECT_DIR$/admin/misc/controllers/navigationController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="0" selection-start="1159" selection-end="1441" vertical-scroll-proportion="0.7131902">
+        <state line="6" column="25" selection-start="249" selection-end="249" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/auth/loginCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="15" selection-start="15" selection-end="15" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/auth/login.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="71" selection-start="672" selection-end="672" vertical-scroll-proportion="0.317757">
           <folding />
         </state>
       </provider>
